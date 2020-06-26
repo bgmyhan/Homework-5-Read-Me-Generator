@@ -9,10 +9,20 @@ inquirer
     default: 'www.yourwebsitehere.com'
   },
   {
-      type: "input", 
-      name: 'companyName',
-      message: 'What company or person(s) is this readme for?',
-      default: 'Joe Schmoe LLC'
+    type: "input", 
+    name: 'companyName',
+    message: 'What company or person(s) is this readme for?',
+    default: 'Joe Schmoe LLC'
+  },
+  {
+    name: "messageWizard",
+    message: "Please fill out the next steps as specifically as your needs require",
+    default: 'Press Enter'
+  },
+  {
+    name: "messageWiard",
+    message: "Please fill out the next steps as specifically as your needs require",
+    default: 'Press Enter'
   },
 ])
 .then(answers => {
